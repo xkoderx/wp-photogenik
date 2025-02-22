@@ -1,0 +1,71 @@
+/*
+Theme Name: PhotoGenik
+Author: xkoderx
+Author URI: http://github.com/xkoderx
+Description: Tema de Galeria de Imagenes https://michaelsoriano.com/wordpress-theme-react-part-1-setup/
+Description URI: https://michaelsoriano.com/wordpress-theme-react-part-1-setup/
+Version: 1.0.0
+*/
+
+img {
+    /* margin-top: 35px;
+    margin-bottom: 35px;
+    max-width: 99%; */
+    width: 100%;
+}
+
+* img {
+    filter: grayscale(1) !important;
+    transition: all .5s !important;
+    opacity: 0.8;
+}
+
+* img:hover {
+    filter: none !important;
+    transform: scale(1.03);
+    opacity: 1.0;
+}
+
+html{
+    margin-top: 0px;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    color: #333;
+}
+
+img {
+    width: 100%;
+}
+
+.post {
+    padding: 20px;
+}
+
+.pic {
+    text-align: center;
+}
+
+header input {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    border-top: #333 solid 1px;
+}
